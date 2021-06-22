@@ -3,3 +3,4 @@
 3. Data Models for search and results are added.
 4. The serach results are retrieved by http requests to the serach engines so that the using of API is avoided.
 5. To parse the Html response, a third party api is used: Html Agility Pack. 
+6. After exampling the html repsonse, the pattern of returned links and titles can be found and then parsed.
