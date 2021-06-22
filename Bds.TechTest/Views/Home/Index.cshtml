@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Welcome";
+}
+@model Bds.TechTest.Models.SearchModel
+@using (Html.BeginForm("SearchKeyword", "Home", FormMethod.Post))
+{
+@Html.TextBoxFor(m=>m.Keyword, new {style="width:300px"});
+<button type="submit" id="searchBTN" value="Serach">Search</button>
+}
